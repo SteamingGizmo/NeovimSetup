@@ -8,6 +8,7 @@ return {
     },
     keys = {
       { "<leader>ck", ":CMakeSelectKit<CR>", desc = "Select Kit" },
+      { "<leader>c<F6>", ":CMakeBuild program<CR>", desc = "Program Target" },
     },
   },
   {

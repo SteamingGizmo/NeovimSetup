@@ -14,7 +14,18 @@ vim.api.nvim_set_keymap(
   ":CMakeBuild<CR>",
   { noremap = true, silent = true, desc = "Build Project" }
 )
-vim.api.nvim_set_keymap("n", "<leader>c<F6>", ":!go run %<CR>", { noremap = true, silent = true, desc = "Run Go Porject" })
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>c<F6>",
+  ":!go run %<CR>",
+  { noremap = true, silent = true, desc = "Run Go Porject" }
+)
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>D",
+  ":!Doxygen Doxyfile<CR>",
+  { noremap = true, silent = true, desc = "Build Documentation" }
+)
 
 -- vim.api.nvim_set_keymap(
 --   "n",
