@@ -52,6 +52,6 @@ require("lazy").setup({
   },
 })
 
-require("lspconfig").clangd.setup({
-  cmd = { "clangd", "-query-driver=C:/msys64/ucrt64/bin/arm-none-eabi-gcc" },
-})
+-- require("lspconfig").clangd.setup({
+--   cmd = { "clangd", "-query-driver=C:/msys64/ucrt64/bin/arm-none-eabi-gcc" },
+-- })

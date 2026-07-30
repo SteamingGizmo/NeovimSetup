@@ -16,7 +16,7 @@ vim.api.nvim_set_keymap(
 )
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>c<F6>",
+  "<leader>c<F7>",
   ":!go run %<CR>",
   { noremap = true, silent = true, desc = "Run Go Porject" }
 )
